@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="3dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:id="@+id/view1"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:text="Jashuva"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.1000/-"
+            android:textColor="#178504"
+            android:textSize="27sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

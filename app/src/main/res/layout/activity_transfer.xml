@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransferActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Selcet user to transfer"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimary"
+        android:text="Transfer"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView3"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_above="@+id/transfer"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+</RelativeLayout>

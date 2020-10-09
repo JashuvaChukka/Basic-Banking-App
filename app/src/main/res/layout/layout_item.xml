@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="3dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#F4F3F3"
+        android:id="@+id/view3"
+        android:padding="3dp"
+        >
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:textColor="#F44336"
+            android:gravity="center"
+            android:text="Jashuva"
+            android:textSize="30sp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

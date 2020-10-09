@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1048788757382",
+    "firebase_url": "https://banking-app-c8953.firebaseio.com",
+    "project_id": "banking-app-c8953",
+    "storage_bucket": "banking-app-c8953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048788757382:android:347f210ddda29372d51a07",
+        "android_client_info": {
+          "package_name": "com.lenovo.bankingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048788757382-la628chftaejaql844o3cjs6up64q0dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBptGkzlkXSULWAzaauqxS_4sdkPCnr7PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048788757382-la628chftaejaql844o3cjs6up64q0dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
